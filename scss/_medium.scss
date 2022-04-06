@@ -1,0 +1,81 @@
+
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+a.myjump {display: none;}    
+nav ul li a{
+    padding: .5rem 2vw;
+
+}
+nav{
+    height: auto;
+}
+
+
+/*----------- MAIN --------------*/
+main {
+    width: 100%;
+    grid-area: content;
+    padding: 0 2%;
+    min-height: 10rem;
+    h1 {margin: 0; padding: 1rem 0 0 0;}
+    p {margin: 0; padding: .5rem 0;}
+}
+figure img{
+    
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main figure.figures1{
+    grid-area: figure1;
+}
+main p.p1{
+    grid-area: p1;
+}
+main figure.figures2{
+    grid-area: figure2;
+}
+main p.p2{
+    grid-area: p2;
+}
+main figure.figures3{
+    grid-area: figure3;
+}
+main p.p3{
+    grid-area: p3;
+}
+main h1{
+    grid-area: h1full;
+}
+/*----------- FOOTER --------------*/
+    
+/*----------- GRID --------------*/
+#bodyWrapper{
+    grid-template-areas: /*a single word between the quotes equates to a single column with that name*/
+    "header header"
+    "navigation content"
+    "footer footer"; 
+    grid-template-columns: 200px auto;
+    
+}
+#mainWrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+    "h1full h1full"
+    "figure1 p1"
+    "p2 figure2"
+    "figure3 p3";
+    
+}
+

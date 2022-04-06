@@ -1,0 +1,52 @@
+
+
+/*----------- BODY --------------*/
+
+body{
+        background-color: darken($primaryColor, 10%);
+        max-width: 1024px;
+}
+
+/*----------- HEADER --------------*/
+
+header, nav, footer{
+        width: 100vw;
+}
+header div.headerWrapper{
+
+        max-width: 1024px;
+        margin: auto;
+
+}
+
+/*----------- NAVIGATION --------------*/
+nav ul li {flex-basis: auto;
+a{
+        padding: .6rem 1rem;
+}}
+nav ul{
+        max-width: 1024px;
+        margin: auto;
+}
+
+/*----------- MAIN --------------*/
+
+main{
+        max-width: 1024px;
+        margin: auto;
+}
+
+/*----------- FOOTER --------------*/
+    
+/*---------GRID---------*/
+#bodyWrapper{
+        grid-template-areas: /*a single word between the quotes equates to a single column with that name*/
+        "header"
+        "navigation"
+        "content"
+        "footer"; 
+        grid-template-columns: auto;
+        max-width: 64rem;
+        margin:auto;
+        
+    }
