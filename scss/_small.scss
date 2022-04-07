@@ -97,7 +97,7 @@ main {
 /*----------- FOOTER --------------*/
 footer {
     grid-area: footer;
-    background-color: #b5ff98;
+    background-color: lighten($secondaryColor, 20%);
     padding: .5rem 2%;
     text-align: center;
 } 
