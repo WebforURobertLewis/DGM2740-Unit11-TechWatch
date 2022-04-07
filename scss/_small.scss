@@ -90,9 +90,12 @@ main {
     h1 {margin: 0; padding: 1rem 0 0 0;}
     p {margin: 0; padding: .5rem 0;}
     img{ width: 100%; grid-area: contentImg;}
-
+    
 }
-
+div#mainWrapper p{
+    margin-left: 40px; 
+    margin-right: 40px;
+}
 
 /*----------- FOOTER --------------*/
 footer {

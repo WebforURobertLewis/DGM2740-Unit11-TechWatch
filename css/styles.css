@@ -397,6 +397,10 @@ main {
     width: 100%;
     grid-area: contentImg; }
 
+div#mainWrapper p {
+  margin-left: 40px;
+  margin-right: 40px; }
+
 /*----------- FOOTER --------------*/
 footer {
   grid-area: footer;
